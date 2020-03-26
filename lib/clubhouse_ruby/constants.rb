@@ -55,8 +55,16 @@ module ClubhouseRuby
       path: :bulk,
       action: :Put
     },
+    search: {
+      path: 'search',
+      action: :Get
+    },
     search_stories: {
       path: 'search/stories',
+      action: :Get
+    },
+    search_epics: {
+      path: 'search/epics',
       action: :Get
     }
   }.freeze
