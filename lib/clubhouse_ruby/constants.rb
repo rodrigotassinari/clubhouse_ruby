@@ -55,6 +55,10 @@ module ClubhouseRuby
       path: :bulk,
       action: :Put
     },
+    epic_workflow: {
+      path: 'epic-workflow',
+      action: :Get
+    },
     search: {
       path: 'search',
       action: :Get
